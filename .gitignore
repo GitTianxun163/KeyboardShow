@@ -22,6 +22,7 @@ build
 # Fortran module files
 *.mod
 *.smod
+test.py
 
 # Compiled Static libraries
 *.lai
