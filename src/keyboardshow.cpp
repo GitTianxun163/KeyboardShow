@@ -105,7 +105,7 @@ void KeyboardShow::addKeyButtons() {
     this->addKeyButton("PgDn",QRect(x,y,HKEY_W,HKEY_W),60);x += HKEY_W+5;
 
     x = 5;y += HKEY_W+5;
-    this->addKeyButton("Shift",QRect(x,y,HKEY_W*3+12-HKEY_W/2,HKEY_W),61);x += HKEY_W*3+17-HKEY_W/2;
+    this->addKeyButton("Shift",QRect(x,y,HKEY_W*3+10-HKEY_W/2,HKEY_W),61);x += HKEY_W*3+15-HKEY_W/2;
     char z3s[] = "ZXCVBNM";
     for (int i = 0;i<7;i++) {
         QString s;
@@ -115,7 +115,7 @@ void KeyboardShow::addKeyButtons() {
     this->addKeyButton("<\n,",QRect(x,y,HKEY_W,HKEY_W),69);x += HKEY_W+5;
     this->addKeyButton(">\n.",QRect(x,y,HKEY_W,HKEY_W),70);x += HKEY_W+5;
     this->addKeyButton("?\n/",QRect(x,y,HKEY_W,HKEY_W),84);x += HKEY_W+5;
-    this->addKeyButton("Shift",QRect(x,y,HKEY_W*3+12-HKEY_W/2,HKEY_W),71);x += HKEY_W*3+18-HKEY_W/2;
+    this->addKeyButton("Shift",QRect(x,y,HKEY_W*3+10-HKEY_W/2,HKEY_W),71);x += HKEY_W*3+15-HKEY_W/2;
     this->addKeyButton("Up",QRect(x,y,HKEY_W,HKEY_W),72);x += HKEY_W+5;
 
     x = 5;y += HKEY_W+5;
